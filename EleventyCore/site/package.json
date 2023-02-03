@@ -1,0 +1,10 @@
+{
+  "name": "site",
+  "private": true,
+  "scripts": {
+    "build": "node node_modules/.bin/eleventy"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.0-beta.3"
+  }
+}
