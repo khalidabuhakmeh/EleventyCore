@@ -11,7 +11,7 @@
     </ItemGroup>
 
     <Target Name="11ty" BeforeTargets="Build">
-        <Exec Command="npm run build" WorkingDirectory="site" />
+        <Exec Command="npm install &amp;&amp; npm run build" WorkingDirectory="site" />
     </Target>
 
 </Project>
